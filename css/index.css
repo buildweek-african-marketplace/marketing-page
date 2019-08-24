@@ -47,10 +47,57 @@ table {
 	border-spacing: 0;
 }
 
+nav {
+	display: flex;
+	align-items: row;
+	justify-content: space-between;
+	justify-content: flex-end;
+	height: 34px;
+	width: 1366px;
+	padding: 
+	margin: 
+}
+a,
+a:visited {
+	color: #FFFFFF;
+	font-family: Roboto;
+	font-size: 18px;
+	line-height: 21px;
+	text-decoration: none;
+
+}
+
+
+
+
+
+
+/* Words on left side of page over photo*/
+.main-left {
+	background: rgba(255,245,230,0.79);
+	height: 424px;
+	width: 480px;
+	border-radius: 4px;
+
+}
+.main-text-left {
+	color: #FE4F43;
+	font-size: 64px;
+}
+.paragraph-text {
+	width: 388px;
+	height: 120px;
+	color: 303030;
+	font-size: 30px;
+}
 button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
+	font: Roboto;
+    background-color: #FDB751;
+	border: 1px solid #303030;
+	border-radius: 2px;
+	height: 54px;
+	width: 354px;
+    color: #303030;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -58,6 +105,9 @@ button {
     font-size: 16px;
    }
 .main-right {
-    height: 200px;
-    width: 200px;
+    height: px;
+    width: px;
+}
+body {
+	background: #303030;
 }
