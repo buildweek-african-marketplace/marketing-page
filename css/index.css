@@ -61,7 +61,7 @@ nav {
 a,
 a:visited {
 	color: #FFFFFF;
-	font-family: Roboto, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	weight: normal;
 	line-height: 21px;
@@ -88,7 +88,8 @@ a:nav:link {
 }
 .main-text-left {
 	color: #FE4F43;
-	font: Merriweather;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
 	font-size: 64px;
 	margin-top: 40px;
 	margin-left: 75px; 
@@ -96,15 +97,17 @@ a:nav:link {
 	
 }
 .paragraph-text {
-	margin-top: 5%;
+	margin-top: 15%;
 	margin-left: 60px;
 	width: 388px;
 	height: 120px;
 	color: 303030;
 	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	
 }
 button {
-	font: Roboto;
+	font-family: 'Roboto', sans-serif;
     background-color: #FDB751;
 	border: 1px solid #303030;
 	border-radius: 2px;
@@ -124,6 +127,7 @@ button {
 }
 body {
 	background: #303030;
+	
 }
 
 /* MEDIA QUERIES */
