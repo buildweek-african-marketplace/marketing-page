@@ -52,31 +52,33 @@ nav {
 	align-items: row;
 	justify-content: space-between;
 	justify-content: flex-end;
-	height: 34px;
+	height: 60px;
 	width: 1366px;
-	padding: 
-	margin: 
+	font-size: 36px;
+	padding: ;
+	/*margin: ;*/
 }
 a,
 a:visited {
 	color: #FFFFFF;
-	font-family: Roboto;
-	font-size: 18px;
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+	weight: normal;
 	line-height: 21px;
 	text-decoration: none;
 
 }
-
-
-
-
-
+a:nav:link {
+	font-family: montserrat;
+	font-size: 16px;;
+	
+}
 
 /* Words on left side of page over photo*/
 .main-left {
 	position: absolute;
 	top: 8%;
-	left: 2%;
+	/*left: 2%;*/
 	background: rgba(255,245,230,0.79);
 	height: 424px;
 	width: 480px;
@@ -88,9 +90,14 @@ a:visited {
 	color: #FE4F43;
 	font: Merriweather;
 	font-size: 64px;
+	margin-top: 40px;
+	margin-left: 75px; 
+	padding: ;
 	
 }
 .paragraph-text {
+	margin-top: 5%;
+	margin-left: 60px;
 	width: 388px;
 	height: 120px;
 	color: 303030;
@@ -108,7 +115,9 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+	font-size: 22px;
+	margin-top: 5px;
+	margin-left: 60px;
    }
 .main-right {
     width: 100%;
@@ -116,3 +125,9 @@ button {
 body {
 	background: #303030;
 }
+
+/* MEDIA QUERIES */
+@media(max-width: 1366px) {
+
+}
+
