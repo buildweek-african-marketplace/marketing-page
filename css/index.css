@@ -74,10 +74,16 @@ a:nav:link {
 	
 }
 
+.navlogo {
+margin-left: ;
+font-family: 'Roboto', sans-serif;
+color: white;
+}
+
 /* Words on left side of page over photo*/
 .main-left {
 	position: absolute;
-	top: 8%;
+	top: 4rem;
 	/*left: 2%;*/
 	background: rgba(255,245,230,0.79);
 	height: 424px;
@@ -123,7 +129,7 @@ button {
 	margin-left: 60px;
    }
 .main-right {
-    width: 100%;
+    width: 50%;
 }
 body {
 	background: #303030;
